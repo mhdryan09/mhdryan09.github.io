@@ -1,183 +1,320 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <!-- Required meta tags -->
-    <meta charset="utf-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-
-    <!-- Bootstrap CSS -->
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css"
-        integrity="sha384-9aIt2nRpC12Uk9gS9baDl411NQApFmC26EwAOH8WgZl5MYYxFfc+NcPb1dKGj7Sk" crossorigin="anonymous">
-    <!-- My Fonts -->
-    <link href="https://fonts.googleapis.com/css2?family=Montserrat" rel="stylesheet">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Website Portfolio Ryan</title>
+    <!-- Font Awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css"
+      integrity="sha512-iBBXm8fW90+nuLcSKlbmrPcLa0OT92xO1BIsZ+ywDWZCvqsWgccV3gFoRBv0z+8dLJgyAHIhR35VZc2oM/gI1w=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
     <!-- My CSS -->
-    <link rel="stylesheet" href="style.css">
-    <title>Web Landing</title>
-</head>
+    <link rel="stylesheet" href="css/style.css" />
+  </head>
+  <body>
+    <!-- Hamburge Menu -->
+    <div id="menu-bars" class="fas fa-bars"></div>
 
-<body>
-    <!-- Navbar -->
-    <nav class="navbar navbar-expand-lg navbar-light">
-        <div class="container">
-            <a class="navbar-brand" href="#">AbangMilan</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
-                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-                <span class="navbar-toggler-icon"></span>
-            </button>
-            <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-                <div class="navbar-nav ml-auto">
-                    <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
-                    <a class="nav-item nav-link" href="#">Pricing</a>
-                    <a class="nav-item nav-link">Features</a>
-                    <a class="nav-item nav-link" href="#">About</a>
-                    <a class="nav-item btn btn-primary tombol" href="#">Join Us</a>
-                </div>
+    <!-- Header -->
+    <header>
+      <!-- Navigation -->
+      <nav class="navbar">
+        <a href="#profile">home</a>
+        <a href="#about">about</a>
+        <a href="#skills">skill</a>
+        <a href="#projects">project</a>
+        <a href="#contacts">contact</a>
+      </nav>
+      <!-- Navigation Ends -->
+    </header>
+    <!-- Header Ends -->
+
+    <!-- Profile -->
+    <section class="profile" id="profile">
+      <div class="content">
+        <div class="imgBox">
+          <img src="img/profile.jpg" alt="" />
+        </div>
+        <h3>Muhammad <span> Ryan </span> Pranata</h3>
+        <p>I'am A Front End Web Developer</p>
+        <a href="CV_Ryan.pdf" target="_blank" class="tombolCV"
+          >Download My CV
+          <i class="fas fa-arrow-circle-down"></i>
+        </a>
+        <ul class="socialMedia">
+          <li>
+            <a
+              href="https://www.linkedin.com/in/muhammad-ryan-pranata-b33a59208/"
+              target="_blank"
+              ><i class="fab fa-linkedin"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://instagram.com/mhdryan09" target="_blank"
+              ><i class="fab fa-instagram"></i>
+            </a>
+          </li>
+          <li>
+            <a href="https://github.com/mhdryan09" target="_blank"
+              ><i class="fab fa-github"></i>
+            </a>
+          </li>
+          <li>
+            <a href="mailto:pranataryan91@gmail.com" target="_blank"
+              ><i class="fas fa-envelope"></i>
+            </a>
+          </li>
+        </ul>
+      </div>
+    </section>
+    <!-- Profile Ends -->
+
+    <!-- About Me -->
+    <section class="about" id="about">
+      <h2 class="heading">About <span> Me </span></h2>
+      <div class="row-1">
+        <div class="image">
+          <img src="img/profile.jpg" alt="" />
+        </div>
+        <div class="content">
+          <h3>Muhammad Ryan Pranata | <span>Front End Web Developer</span></h3>
+          <p>
+            Perkenalkan nama saya Muhammad Ryan Pranata. Saat ini, saya sedang
+            bekerja di salah satu Start-Up di Yogyakarta. Pada sela-sela luang
+            waktu setelah bekerja, saya menekuni bidang yang saya sukai saat ini
+            yaitu pemrograman, terkhusus pada teknologi di bagian Front End Web.
+          </p>
+          <p>
+            Saat ini, saya sedang belajar mengenai <u>Javascript ES6</u> dan
+            terkadang mecoba sesekali melakukan <u>slicing design to code</u>
+            (menjadikan design ke dalam bentuk halaman website statis). Walaupun
+            diluar sana sedang ramai menggunakan Framework Javascript seperti
+            React/Vue/Angular, saya tidak terlalu ingin buru-buru masuk kesana.
+            Hal yang saya perkuat saat ini adalah fundamental pemrograman
+            javascript itu sendiri. Agar jika suatu saat ingin berpindah-pindah
+            framework, tidak butuh waktu lama. Disamping itu semua, saya
+            antusias dan merasa selalu ingin belajar apabila ada teknologi baru.
+          </p>
+        </div>
+      </div>
+      <div class="row-2">
+        <div class="education">
+          <h3>Pendidikan</h3>
+          <div class="educationBox">
+            <div class="content">
+              <span>2003-2009</span>
+              <h4>SD Negeri 12</h4>
+              <p>Kota Padangsidimpuan</p>
             </div>
-        </div>
-    </nav>
-    <!-- Akhir Navbar -->
+          </div>
 
-    <!-- Jumbotron -->
-    <div class="jumbotron jumbotron-fluid">
-        <div class="container">
-            <h1 class="display-4">Get work <span>faster</span><br> and <span>better</span> with us</h1>
-            <a href="" class="btn btn-primary tombol">Our Work</a>
+          <div class="educationBox">
+            <div class="content">
+              <span>2009-2012</span>
+              <h4>Mts, Negeri Lubuk Pakam</h4>
+              <p>Kota Lubuk Pakam</p>
+            </div>
+          </div>
+
+          <div class="educationBox">
+            <div class="content">
+              <span>2012-2015</span>
+              <h4>SMA Negeri 1 Galang</h4>
+              <p>Kota Galang</p>
+            </div>
+          </div>
+
+          <div class="educationBox">
+            <div class="content">
+              <span>2016-2021</span>
+              <h4>Universitas Teknologi Yogyakarta</h4>
+              <p>S1 Sistem Informasi</p>
+              <p>Yogyakarta</p>
+            </div>
+          </div>
         </div>
+
+        <div class="work">
+          <h3>Pekerjaan</h3>
+          <div class="workBox">
+            <div class="content">
+              <span>Juni 2021 - Sekarang</span>
+              <h4>PT Privy ID</h4>
+              <p>Customer Experience</p>
+              <p>
+                Perusahaan Penyedia layanan tanda tangan digital dan sertifikat
+                digital.
+              </p>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- About Me Ends -->
+
+    <!-- Skills -->
+    <section class="skills" id="skills">
+      <h2 class="heading">Skills And <span> Tools </span></h2>
+      <div class="content">
+        <div class="skill">
+          <img src="img/skills/html5-brands.svg" alt="" />
+          <h2>HTML5</h2>
+          <p></p>
+        </div>
+
+        <div class="skill">
+          <img src="img/skills/css3-alt-brands.svg" alt="" />
+          <h2>CSS 3</h2>
+          <p></p>
+        </div>
+
+        <div class="skill">
+          <img src="img/skills/js-square-brands.svg" alt="" />
+          <h2>Javascript</h2>
+          <p></p>
+        </div>
+
+        <div class="skill">
+          <img src="img/skills/bootstrap-brands.svg" alt="" />
+          <h2>Bootstrap</h2>
+          <p>CSS Framework</p>
+        </div>
+
+        <div class="skill">
+          <img src="img/skills/office.svg" alt="" />
+          <h2>Ms Office</h2>
+          <p>Microsoft Ofiice</p>
+        </div>
+
+        <div class="skill">
+          <img src="img/skills/experience.svg" alt="" />
+          <h2>XD</h2>
+          <p>Adobe XD</p>
+        </div>
+      </div>
+    </section>
+    <!-- Skills Ends -->
+
+    <!-- Projects -->
+    <section class="projects" id="projects">
+      <h2 class="heading">My <span> Projects </span></h2>
+      <!-- Card -->
+      <div class="myProjects">
+        <div class="card">
+          <div class="card-body">
+            <img src="img/projects/Hefa-Store.png" alt="" class="card-image" />
+            <h2 class="card-title">Project 1</h2>
+            <p class="card-description">Landing Page Hefa Store</p>
+          </div>
+          <button class="card-button">
+            <a href="" target="_blank"
+              >View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="img/projects/Barbar-Travel-Dicoding.png"
+              alt=""
+              class="card-image"
+            />
+            <h2 class="card-title">Project 2</h2>
+            <p class="card-description">Barbar Travel</p>
+          </div>
+          <button class="card-button">
+            <a href="https://barbar-travel.netlify.app/" target="_blank"
+              >View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="img/projects/Web-Healt-Trafelgar.png"
+              alt=""
+              class="card-image"
+            />
+            <h2 class="card-title">Project 3</h2>
+            <p class="card-description">Web Health Trafelgar</p>
+          </div>
+          <button class="card-button">
+            <a href="" target="_blank"
+              >View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="img/projects/Landing-Page-ResepKu.png"
+              alt=""
+              class="card-image"
+            />
+            <h2 class="card-title">Project 4</h2>
+            <p class="card-description">Landing Page ResepKu</p>
+          </div>
+          <button class="card-button">
+            <a href="" target="_blank"
+              >View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </button>
+        </div>
+
+        <div class="card">
+          <div class="card-body">
+            <img
+              src="img/projects/Landing-Page-Covid19.png"
+              alt=""
+              class="card-image"
+            />
+            <h2 class="card-title">Project 5</h2>
+            <p class="card-description">Landing Page Covid19</p>
+          </div>
+          <button class="card-button">
+            <a href="" target="_blank"
+              >View Project <i class="fas fa-arrow-right"></i>
+            </a>
+          </button>
+        </div>
+      </div>
+    </section>
+    <!-- Projects Ends -->
+
+    <!-- Contact -->
+    <section class="contacts" id="contacts">
+      <h2 class="heading">Contact <span> Me </span></h2>
+      <div class="contactForm">
+        <div class="row">
+          <input type="text" name="" id="" placeholder="firstName" />
+          <input type="text" name="" id="" placeholder="LastName" />
+        </div>
+        <div class="row">
+          <input type="email" name="" id="" placeholder="Email Addres" />
+          <input type="text" name="" id="" placeholder="Mobile No." />
+        </div>
+        <div class="row2">
+          <textarea placeholder="Message"></textarea>
+        </div>
+        <div class="row2">
+          <input type="submit" name="" id="" value="Send" />
+        </div>
+      </div>
+    </section>
+    <!-- Contact Ends -->
+
+    <div class="copyright">
+      <p>Copyright 2021. Muhammad Ryan Pranata. All Right Reserved.</p>
     </div>
-    <!-- Akhir Jumbotron -->
 
-
-
-
-    <!-- Container -->
-    <div class="container">
-
-        <!-- Info Panel -->
-        <div class="row justify-content-center">
-            <div class="col-10 info-panel">
-                <div class="row">
-                    <div class="col-lg">
-                        <img src="img/employee.png" alt="employee" class="float-left">
-                        <h4>24 Hours</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div class="col-lg">
-                        <img src="img/hires.png" alt="hires" class="float-left">
-                        <h4>High-Res</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                    <div class="col-lg">
-                        <img src="img/security.png" alt="security" class="float-left">
-                        <h4>Security</h4>
-                        <p>Lorem ipsum dolor sit amet.</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Akhir info panel -->
-
-
-
-
-        <!-- Workingspace -->
-
-        <div class="row workingspace">
-            <div class="col-lg-6">
-                <img src="img/workingspace.png" alt="" class="img-fluid">
-            </div>
-            <div class="col-lg-5">
-                <h3>You <span>work</span> like at <span>home</span></h3>
-                <p>
-                    Bekerja dengan suasana hati yang lebih asyik dan mempelajari hal baru setiap harinya.
-                </p>
-                <a href="" class="btn btn-primary tombol">Gallery</a>
-            </div>
-        </div>
-
-        <!-- akhir workingspace -->
-
-
-
-        <!-- Testimonial -->
-        <section class="testimonial">
-            <div class="row justify-content-center">
-                <div class="col-lg-8">
-                    <h5>" Bekerja dengan suasana hati yang lebih asyik dan mempelajari hal baru setiap harinya. " </h5>
-                </div>
-            </div>
-            <div class="row justify-content-center">
-                <div class="col-lg-6 justify-content-center d-flex">
-                    <figure class="figure">
-                        <img src="img/img1.png" class="figure-img img-fluid rounded-circle" alt="testi1">
-                    </figure>
-                    <figure class="figure">
-                        <img src="img/img2.png" class="figure-img img-fluid rounded-circle utama" alt="testi2">
-                        <figcaption class="figure-caption">
-                            <h5>Sunny Ye</h5>
-                            <p>Designer</p>
-                        </figcaption>
-                    </figure>
-                    <figure class="figure">
-                        <img src="img/img3.png" class="figure-img img-fluid rounded-circle" alt="testi3">
-                    </figure>
-                </div>
-            </div>
-        </section>
-
-        <!-- Footer -->
-
-        <div class="row footer">
-            <div class="col text-center">
-                <p>2020. All Right Reserverd by AbangMilan</p>
-            </div>
-        </div>
-        <!-- Akhir footer -->
-
-
-    </div>
-    <!-- Akhir Container -->
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-    <!-- Optional JavaScript -->
-    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
-        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous">
-    </script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"
-        integrity="sha384-Q6E9RHvbIyZFJoft+2mJbHaEWldlvI9IOYy5n3zV9zzTtmI3UksdQRVvoxMfooAo" crossorigin="anonymous">
-    </script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/js/bootstrap.min.js"
-        integrity="sha384-OgVRvuATP1z7JjHLkuOU7Xw704+h835Lr+6QL9UvYjZE3Ipu6Tp75j7Bh/kR0JKI" crossorigin="anonymous">
-    </script>
-</body>
-
+    <script src="js/script.js"></script>
+  </body>
 </html>
