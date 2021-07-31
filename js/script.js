@@ -21,10 +21,11 @@ skill.forEach((image, i) => {
   image.dataset.aosDuration = 2000;
 });
 
-card.forEach((img, i) => {
+card.forEach((img, j) => {
   img.dataset.aos = "zoom-in";
-  img.dataset.aosDelay = i * 300;
-  img.dataset.aosDuration = 1200;
+  img.dataset.aosDelay = j * 200;
+  img.dataset.aosDuration = 1000;
+  img.dataset.aosOffset = 300;
 });
 
 AOS.init({
