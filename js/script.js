@@ -1,20 +1,3 @@
-// const topbar = document.querySelector(".topbar");
-// const navigation = document.querySelector(".navigation");
-// const toggle = document.querySelector(".toggle");
-// const main = document.querySelector(".main");
-
-// toggle.addEventListener("click", function () {
-//   topbar.classList.toggle("active");
-//   navigation.classList.toggle("active");
-//   // toggle.classList.toggle("active");
-//   main.classList.toggle("active");
-// });
-
-// function toggleMenu() {
-//   navigation.classList.remove("active");
-//   main.classList.remove("active");
-// }
-
 const menu = document.querySelector("#menu-bars");
 const header = document.querySelector("header");
 
@@ -26,4 +9,24 @@ menu.addEventListener("click", function () {
 window.addEventListener("onscroll", function () {
   menu.classList.remove("fa-times");
   header.classList.remove("active");
+});
+
+// AOS
+const skill = document.querySelectorAll(".skill");
+const card = document.querySelectorAll(".card");
+
+skill.forEach((image, i) => {
+  image.dataset.aos = "fade-down";
+  image.dataset.aosDelay = i * 300;
+  image.dataset.aosDuration = 2000;
+});
+
+card.forEach((img, i) => {
+  img.dataset.aos = "zoom-in";
+  img.dataset.aosDelay = i * 300;
+  img.dataset.aosDuration = 1200;
+});
+
+AOS.init({
+  once: "true",
 });

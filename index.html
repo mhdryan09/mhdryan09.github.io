@@ -13,6 +13,8 @@
       crossorigin="anonymous"
       referrerpolicy="no-referrer"
     />
+    <!-- AOS -->
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- My CSS -->
     <link rel="stylesheet" href="css/style.css" />
   </head>
@@ -37,12 +39,18 @@
     <!-- Profile -->
     <section class="profile" id="profile">
       <div class="content">
-        <div class="imgBox">
+        <div class="imgBox" data-aos="zoom-in" data-aos-duration="2000">
           <img src="img/profile.jpg" alt="" />
         </div>
         <h3>Muhammad <span> Ryan </span> Pranata</h3>
-        <p>I'am A Front End Web Developer</p>
-        <a href="CV_Ryan.pdf" target="_blank" class="tombolCV"
+        <p>
+          I'am A
+          <span class="typed" data-typed-items="Front End Web Developer"></span>
+        </p>
+        <a
+          href="cv/Muhammad Ryan Pranata_revisi.pdf"
+          target="_blank"
+          class="tombolCV"
           >Download My CV
           <i class="fas fa-arrow-circle-down"></i>
         </a>
@@ -162,37 +170,37 @@
       <h2 class="heading">Skills And <span> Tools </span></h2>
       <div class="content">
         <div class="skill">
-          <img src="img/skills/html5-brands.svg" alt="" />
+          <img src="img/skills/html5-brands.svg" class="img-skill" alt="" />
           <h2>HTML5</h2>
           <p></p>
         </div>
 
         <div class="skill">
-          <img src="img/skills/css3-alt-brands.svg" alt="" />
+          <img src="img/skills/css3-alt-brands.svg" class="img-skill" alt="" />
           <h2>CSS 3</h2>
           <p></p>
         </div>
 
         <div class="skill">
-          <img src="img/skills/js-square-brands.svg" alt="" />
+          <img src="img/skills/js-square-brands.svg" class="img-skill" alt="" />
           <h2>Javascript</h2>
           <p></p>
         </div>
 
         <div class="skill">
-          <img src="img/skills/bootstrap-brands.svg" alt="" />
+          <img src="img/skills/bootstrap-brands.svg" class="img-skill" alt="" />
           <h2>Bootstrap</h2>
           <p>CSS Framework</p>
         </div>
 
         <div class="skill">
-          <img src="img/skills/office.svg" alt="" />
+          <img src="img/skills/office.svg" class="img-skill" alt="" />
           <h2>Ms Office</h2>
           <p>Microsoft Ofiice</p>
         </div>
 
         <div class="skill">
-          <img src="img/skills/experience.svg" alt="" />
+          <img src="img/skills/experience.svg" class="img-skill" alt="" />
           <h2>XD</h2>
           <p>Adobe XD</p>
         </div>
@@ -322,7 +330,8 @@
     <div class="copyright">
       <p>Copyright 2021. Muhammad Ryan Pranata. All Right Reserved.</p>
     </div>
-
+    <!-- AOS -->
+    <script src="https://unpkg.com/aos@next/dist/aos.js"></script>
     <script src="js/script.js"></script>
   </body>
 </html>

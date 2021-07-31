@@ -320,10 +320,11 @@ section {
   /* border: 1px solid rgba(0, 0, 0, 0.05); */
   padding: 10px;
   text-align: center;
-  background: #fff;
+  background: rgb(197 168 168 / 0%);
   border-radius: 10px;
-  box-shadow: 10px 10px 5px rgba(0, 0, 0, 0.2),
-    1px 1px 3px 1px rgba(0, 0, 0, 0.5);
+  outline: none;
+  border: none;
+  box-shadow: 5px 10px 20px 2px rgba(0, 0, 0, 0.08);
   display: flex;
   justify-content: center;
   align-items: center;
@@ -412,7 +413,7 @@ section {
   margin-left: 10px;
 }
 
-.card-button:hover a {
+.card:hover a {
   color: #fff;
 }
 
@@ -422,7 +423,7 @@ section {
 
 .card:hover .card-button {
   background: var(--primer);
-  color: #cfd8dc;
+  color: #fff;
 }
 
 /* Contact */
